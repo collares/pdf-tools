@@ -25,6 +25,8 @@
 
 ;;; Code:
 
+(require 'image-mode)
+(require 'pdf-macs)
 (require 'cl-lib)
 (require 'format-spec)
 (require 'faces)
@@ -33,10 +35,7 @@
 ;; which won't succeed, if pdf-view.el isn't loaded.
 (declare-function pdf-view-image-size "pdf-view")
 (declare-function pdf-view-image-offset "pdf-view")
-(declare-function pdf-view-current-image "pdf-view")
-(declare-function pdf-view-current-overlay "pdf-view")
 (declare-function pdf-cache-pagesize "pdf-cache")
-
 (declare-function pdf-view-image-type "pdf-view")
 
 

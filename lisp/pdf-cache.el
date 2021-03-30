@@ -23,6 +23,8 @@
 ;;; Code:
 ;;
 
+(require 'image-mode)
+(require 'pdf-macs)
 (require 'pdf-info)
 (require 'pdf-util)
 
